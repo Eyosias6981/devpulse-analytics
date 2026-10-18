@@ -1,0 +1,115 @@
+.task-form {
+  background-color: #1e293b;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 1px solid #334155;
+}
+
+.task-form h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.form-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.task-form input[type="text"] {
+  flex: 1;
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  padding: 0.75rem;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.task-form input[type="text"]:focus {
+  border-color: #646cff;
+}
+
+.task-form select {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  padding: 0.75rem;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.2rem;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #535bf2;
+}
+.metrics-banner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.metric-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.metric-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #646cff;
+  margin-bottom: 0.25rem;
+}
+
+.metric-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.btn-delete {
+  background: none;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  padding: 0.25rem;
+  font-size: 1.1rem;
+  line-height: 1;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.btn-delete:hover {
+  background-color: #334155;
+  color: #ef4444;
+}
